@@ -796,7 +796,8 @@ namespace Flash_EC_Tool
         {
             if (checkFlashMassEra())
             {
-                MessageBox.Show("The SFPU Flash tool version is error,pls call pe check... ");
+                MessageBox.Show("选择打开的SFPU刷EC工具版本有误,可能导致MB异常，请联系PE检查... ", "Version Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                SubFunction.saveLog("选择打开的SFPU刷EC工具版本有误,可能导致MB异常，请联系PE检查...\r\n");
                 return;
             }
 
@@ -826,7 +827,8 @@ namespace Flash_EC_Tool
 
            if ( checkFlashMassEra())
            {
-               MessageBox.Show("The SFPU Flash tool version is error,pls call pe check... ");
+               MessageBox.Show("选择打开的SFPU刷EC工具版本有误,可能导致MB异常，请联系PE检查... ", "Version Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+               SubFunction.saveLog("选择打开的SFPU刷EC工具版本有误,可能导致MB异常，请联系PE检查...\r\n");
                return;
            }
 

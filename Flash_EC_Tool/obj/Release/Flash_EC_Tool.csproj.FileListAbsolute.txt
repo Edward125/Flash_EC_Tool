@@ -37,3 +37,4 @@ D:\Edward\Flash_EC_Tool_1.0.2.0\Flash_EC_Tool\obj\Release\Flash_EC_Tool.Form1.re
 D:\Edward\Flash_EC_Tool_1.0.2.0\Flash_EC_Tool\obj\Release\Flash_EC_Tool.frmSetting.resources
 D:\Edward\Flash_EC_Tool_1.0.2.0\Flash_EC_Tool\obj\Release\Flash_EC_Tool.Properties.Resources.resources
 D:\Edward\Flash_EC_Tool_1.0.2.0\Flash_EC_Tool\obj\Release\Flash_EC_Tool.csproj.GenerateResource.Cache
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Release\Flash_EC_Tool.csprojResolveAssemblyReference.cache

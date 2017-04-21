@@ -36,3 +36,8 @@ E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Interop.ActProgTypeLib.dll
 E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\AxInterop.ActProgTypeLib.dll
 E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.frmSetting.resources
 E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csprojResolveAssemblyReference.cache
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Interop.ActProgTypeLib.dll
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\AxInterop.ActProgTypeLib.dll
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.ResolveComReference.cache
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Interop.ActProgTypeLib.dll
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\AxInterop.ActProgTypeLib.dll
