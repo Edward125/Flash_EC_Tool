@@ -1,0 +1,38 @@
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.exe
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.pdb
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csprojResolveAssemblyReference.cache
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Form1.resources
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Properties.Resources.resources
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.GenerateResource.Cache
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.exe
+C:\Users\test\AppData\Local\Temporary Projects\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.pdb
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.exe
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.pdb
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csprojResolveAssemblyReference.cache
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Form1.resources
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Properties.Resources.resources
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.GenerateResource.Cache
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.exe
+D:\EdwardCode\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.pdb
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.exe
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.pdb
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.exe
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.pdb
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Form1.resources
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Properties.Resources.resources
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.GenerateResource.Cache
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.exe
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.pdb
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.exe
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Flash_EC_Tool.pdb
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Form1.resources
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.Properties.Resources.resources
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.GenerateResource.Cache
+D:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.frmSetting.resources
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Interop.ActProgTypeLib.dll
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\AxInterop.ActProgTypeLib.dll
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csproj.ResolveComReference.cache
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\Interop.ActProgTypeLib.dll
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\bin\Debug\AxInterop.ActProgTypeLib.dll
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.frmSetting.resources
+E:\Edward\Flash_EC_Tool\Flash_EC_Tool\obj\Debug\Flash_EC_Tool.csprojResolveAssemblyReference.cache

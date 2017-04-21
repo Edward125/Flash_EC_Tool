@@ -1,0 +1,75 @@
+           this.timerScanPLC.Stop();
+            while (readPLCValue(PLC_Read_Device, ref PLC_Read))
+            {
+
+
+                if (PLC_Last_Read != PLC_Read)
+                {
+                    updateTestHistory(lstHistory, PLC_Read.ToString());
+                    PLC_Last_Read = PLC_Read;
+                }
+                                
+                if (PLC_Read == 65)//×xµ½é_Ê¼
+                {
+                    if (PLC_Last_Read == PLC_Read)
+                    {
+                        return;
+                    }
+                   // PLC_Last_Read = PLC_Read;
+                  
+                    this.lblResult.ForeColor = Color.Yellow;
+                    this.lblResult.Text = "WAIT";
+                    iTotal += 1;
+                    this.txtTotal.Text = iTotal.ToString();
+                    updateTestHistory(lstHistory, "WAIT");
+                    SubFunction.saveLog("Read PLC D100=65.\r\n");
+                    //clear listbox
+                    clearListbox();
+                    SubFunction.saveLog("Auto->ClearListbox.\r\n");
+                    //pressupdatebutton
+                    PressUpdateButton();
+                    SubFunction.saveLog("Auto->PressUpdateButton.\r\n");
+                    //add listbox contents to richbox
+                    foreach (string st in GetListBoxContents(getListBoxHwnd(getTagHwnd())))
+                    {
+                        richTestMessage.AppendText(st);
+                        richTestMessage.AppendText(Environment.NewLine);
+
+                        if (st.Contains("Verify flash successful"))
+                        {
+                            iPASS += 1;
+                            //Œ‘PLC 
+                            if (writePLCValue(PLC_Write_Device, 80))
+                            {
+                                this.txtPASS.Text = iPASS.ToString();
+                                this.lblResult.Text = "PASS";
+                                this.lblResult.ForeColor = Color.Green;
+                                updateTestHistory(lstHistory, "PASS");
+                                SubFunction.saveLog("Auto->PASS.\r\n");
+                                SubFunction.saveLog("Write PLC D200=80.\r\n");
+                            }
+                            else
+                            {
+                                SubFunction.saveLog("Write PLC D200=80 fail.\r\n");
+                            }
+                        }
+
+                        if (st.Contains("Time"))
+                        {
+                            double testTime = -1;
+                            getTestingTime(st, ref testTime);
+                            if (testTime < 18)
+                            {
+                                this.lblResult.ForeColor = Color.Red;
+                                this.lblResult.Text = "FAIL";
+                                updateTestHistory(lstHistory, "FAIL");
+                                writePLCValue(PLC_Write_Device, 70);
+                                SubFunction.saveLog("auto->fail,time=" + testTime + ".\r\n");
+                                SubFunction.saveLog("write plc d200=70.\r\n");
+                            }
+                        }
+                    }
+                   // PLC_Last_Read = PLC_Read;
+                }                
+            }
+            this.timerScanPLC.Start();
