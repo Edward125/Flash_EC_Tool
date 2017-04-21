@@ -563,6 +563,39 @@ namespace Flash_EC_Tool
             }
         }
 
+
+
+
+        private bool checkFlashMassEra()
+        {
+            IntPtr hwndOfMain = FindWindow(null, "SFPU (MEC5075 - Digilent-2.9)");
+            if (hwndOfMain == IntPtr.Zero)
+            {
+                hwndOfMain = FindWindow(null, "SFPU (MEC5085 - Digilent-2.9)");
+            }
+
+            IntPtr hwndOfDiag = FindWindowEx(hwndOfMain, IntPtr.Zero, null, "Flash Update");
+            if (hwndOfDiag != IntPtr.Zero)
+            {
+                IntPtr hwndOfListbox = FindWindowEx(hwndOfDiag, IntPtr.Zero, null, "Flash emergency mass erase");
+
+                if (hwndOfListbox != IntPtr.Zero)
+                {
+                  
+                    return true;
+                }
+
+                
+            }
+
+
+            return false;
+
+        }
+
+
+
+
         /// <summary>
         /// 清除listbox中的值
         /// </summary>
@@ -761,6 +794,12 @@ namespace Flash_EC_Tool
 
         private void btnAutoTest_Click(object sender, EventArgs e)
         {
+            if (checkFlashMassEra())
+            {
+                MessageBox.Show("The SFPU Flash tool version is error,pls call pe check... ");
+                return;
+            }
+
             //set plc
             settingPLC(changePortNumber(portName));
             if (actPLC.Open() != 0)
@@ -784,6 +823,14 @@ namespace Flash_EC_Tool
 
         private void btnManual_Click(object sender, EventArgs e)
         {
+
+           if ( checkFlashMassEra())
+           {
+               MessageBox.Show("The SFPU Flash tool version is error,pls call pe check... ");
+               return;
+           }
+
+            //return;
             clearListbox();
             SubFunction.saveLog("Manual->clearListbox.\r\n");
             PressUpdateButton();
