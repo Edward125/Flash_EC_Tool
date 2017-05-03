@@ -282,6 +282,8 @@ namespace Flash_EC_Tool
         const int LB_GETTEXT = 0x0189;
         const int LB_RESETCONTENT = 0x184;
 
+        const int BM_GETCHECK = 0x00F0;
+
         public string portName = string.Empty;
         public int PLC_Read = -1;
         public int PLC_Write = -1;
@@ -578,11 +580,16 @@ namespace Flash_EC_Tool
             if (hwndOfDiag != IntPtr.Zero)
             {
                 IntPtr hwndOfListbox = FindWindowEx(hwndOfDiag, IntPtr.Zero, null, "Flash emergency mass erase");
-
+                //IntPtr hwndOfListbox = FindWindowEx(hwndOfDiag, IntPtr.Zero, null, "Save flash image:");
                 if (hwndOfListbox != IntPtr.Zero)
                 {
-                  
-                    return true;
+
+                    int result = SendMessage(hwndOfListbox, BM_GETCHECK, 0, 0); // result == 0,not checked,result == 1,checked
+
+                    if (result == 0)
+                        return false;
+                    if (result  == 1)
+                       return true ;
                 }
 
                 
